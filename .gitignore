@@ -1,0 +1,30 @@
+# Node
+node_modules/
+dist/
+*.log
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+
+# Database
+backend/data.sqlite
+backend/data.sqlite-*
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
