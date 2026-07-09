@@ -81,7 +81,7 @@ Requires Node.js 18+ (frontend, and Node backend). Python 3.10+ if using the Pyt
 cd backend
 npm install
 cp .env.example .env
-# edit .env and set ANTHROPIC_API_KEY=<your key>
+# edit .env and set 
 npm start
 ```
 
@@ -92,7 +92,7 @@ python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env
-# edit .env and set ANTHROPIC_API_KEY=<your key>
+# edit .env and set API_KEY=<your key>
 uvicorn app.main:app --port 4000
 ```
 
